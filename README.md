@@ -1,5 +1,9 @@
 ## CLOSEST PAIR OF POINTS:
 
+# Question Statement:
+
+* Generate a random pair of 100 values. Apply the closest pair algorithm to find the closest pair(distance). A C++ implementation from scratch implementation is with neat documentation is expected.The time complexity of the algorithm should be O(N log N).
+
 # ALGORITHM:
 
 # STEP 1:
