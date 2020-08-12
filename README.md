@@ -25,7 +25,8 @@
 
 *From the above steps, we have an upper bound min_dist of minimum distance. Now we need to consider the pairs such that one point in pair is from the left half and the other is from the right half. Consider the vertical line passing through P[n/2] and find all points whose x coordinate is closer than d to the middle vertical line. Build an array stp[] of all such points.
 
-![](closepair.png)
+![closepair](https://user-images.githubusercontent.com/69573313/90012559-3ab59900-dcc1-11ea-8331-5449e4fa26b5.png)
+
 
 # STEP 7:
 
