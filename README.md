@@ -19,7 +19,7 @@
 
 *Recursively find the smallest distances in both subarrays. Let the distances be dl and dr. Find the minimum of D_Left and D_Right. Let the minimum be min_dist.
 
-![](mindis.png)
+![mindis](https://user-images.githubusercontent.com/69573313/90012430-faeeb180-dcc0-11ea-97ec-5dc8ff0180a4.png)
 
 # STEP 6:
 
