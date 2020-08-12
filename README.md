@@ -26,6 +26,13 @@
 * Sort the array stp[] according to y coordinates. This step is O(nLogn). It can be optimized to O(n) by recursively sorting and merging.
 * Find the smallest distance in stp[]. This is tricky. From the first look, it seems to be a O(n^2) step, but it is actually O(n). It can be proved geometrically that for every point in the strip, we only need to check at most 7 points after it (note that strip is sorted according to Y coordinate). See this for more analysis.
 
-# STEP 9:
+# STEP 5:
 
 * Finally return the minimum of d and distance calculated in the above step (step 4).
+
+# Time Complexity:
+
+* Let Time complexity of above algorithm be T(n). Let us assume that we use a O(nLogn) sorting algorithm. The above algorithm divides all points in two sets and recursively calls for two sets. After dividing, it finds the strip in O(n) time, sorts the strip in O(nLogn) time and finally finds the closest points in strip in O(n) time. So T(n) can expressed as follows
+T(n) = 2T(n/2) + O(n) + O(nLogn) + O(n)
+T(n) = 2T(n/2) + O(nLogn)
+T(n) = T(n x Logn x Logn)
